@@ -1,0 +1,14 @@
+{
+  "name": "ci-cd-lab",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest --colors",
+    "build": "mkdir -p dist && cp index.html dist/ && cp main.js dist/",
+    "pretest": "node -v && npm -v"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
+
