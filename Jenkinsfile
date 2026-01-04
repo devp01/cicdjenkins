@@ -7,7 +7,7 @@ pipeline {
 
     environment {
         APP_NAME = 'ci-cd-lab'
-        DEPLOY_DIR = '/var/www/ci-cd-lab'
+        DEPLOY_DIR = '/tmp/ci-cd-lab'
     }
 
     stages {
